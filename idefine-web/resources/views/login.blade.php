@@ -22,8 +22,6 @@
                 <div class="mb-5">
                   <h1>Sign In</h1>
                 </div>
-                
-                {{-- <label for="emailAddress" class="sr-only">Email Address</label> --}}
                 <div class="mb-3">
                   <input type="email" id="emailAddress" class="form-control" placeholder="Email Address" required autofocus>
                 </div>
