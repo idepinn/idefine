@@ -14,17 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "title" => "Home",
+        "name" => "One Agustiranda",
+        "image" => "profile.jpg"
+    ]);
 });
 
 Route::get('/connection', function () {
-    return view('connection');
+    return view('connection', [
+        "title" => "Connection"
+    ]);
 });
 
 Route::get('/idea', function () {
-    return view('idea');
+    return view('idea', [
+        "title" => "Idea"
+    ]);
 });
 
 Route::get('/login', function () {
-    return view('login');
+    return view('login', [
+        "title" => "Login"
+    ]);
 });
