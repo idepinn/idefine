@@ -3,8 +3,8 @@
     "",
     "\\resources",
     "\\resources\\views",
-    "\\routes"
+    "\\resources\\views\\layouts",
+    "\\resources\\views\\partials"
   ],
-  "SelectedNode": "\\routes\\web.php",
   "PreviewInSolutionExplorer": false
 }
