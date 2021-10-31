@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\resources",
-    "\\resources\\views",
-    "\\resources\\views\\layouts",
-    "\\resources\\views\\partials"
+    "\\app",
+    "\\app\\Models",
+    "\\resources"
   ],
+  "SelectedNode": "\\app\\Models\\Post.php",
   "PreviewInSolutionExplorer": false
 }

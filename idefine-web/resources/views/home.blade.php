@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col">
                         <h6>
-                            <a href="/idea/{{ $home["slug"] }}">{{ $home["title"] }} - {{ $home["author"] }}</a>
+                            <a href="/connection/{{ $home["slug"] }}">{{ $home["title"] }} - {{ $home["author"] }}</a>
                         </h6>
                         <span>{{ $home["category"] }}</span>
                     </div>
